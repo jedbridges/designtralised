@@ -1,0 +1,88 @@
+body {
+  background-color: #1e1d28;
+  padding-left: 10%;
+  padding-left: 10%;
+  overflow: hidden;
+}
+
+#logo {
+  height: 240px;
+  position: absolute;
+  padding-top: 140px;
+}
+
+h1 {
+  color: #57fff2;
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  width: 16em;
+  padding-top: 440px;
+}
+
+p {
+  color: #eae9e8;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.6em;
+  width: 24em;
+  padding-top: 20px;
+}
+
+.grid{
+  top: -400px;
+  bottom: -400px;
+  left: -400px;
+  right: -400px;
+  position: absolute;
+
+  background-image: linear-gradient($color-neonpink 1px, transparent 2px),
+  linear-gradient(90deg, $color-neonpink 1px, transparent 2px);
+  background-size:3% 3%, 3% 3%;
+  background-position:0 0, 0 0;
+
+  transform: perspective(300px) rotateX(80deg);
+}
+
+label{
+  font-family: 'Audiowide', cursive;
+  color: $color-neonpink;
+  text-shadow: 0 0 12px rgba($color-neonpurple, 0.8);
+}
+  input:checked ~ .grid{
+    animation: throughSpace 2s linear;
+    animation-iteration-count: infinite;
+  }
+
+
+@keyframes throughSpace{
+  0%{
+    transform: perspective(300px) rotateX(80deg) translateY(0%);
+  }
+  100%{
+    transform: perspective(300px) rotateX(80deg) translateY(5.8%);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+        h1 {
+            width: 11em;
+            font-size: 2.4em;
+            padding-top: 420px;
+        }
+
+@media screen and (max-width: 600px) {
+    p {
+        width: 18em;
+    }
+
+@media screen and (max-width: 600px) {
+            #logo {
+              height: 180px;
+              position: absolute;
+              padding-top: 180px;
+            }
