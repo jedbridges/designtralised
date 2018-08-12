@@ -4,6 +4,10 @@ body {
   padding-right: 10%;
 }
 
+Footer {
+  height: 240px;
+}
+
 #logo {
   height: 240px;
   position: absolute;
@@ -34,7 +38,7 @@ p {
 button {
   padding: 1rem 1.25rem;
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
   text-shadow:
     -2px 4px 4px #091243,
@@ -54,6 +58,17 @@ button {
     inset 2px 4px 3px rgba(3,0,128, 0.3),
     inset 0 0 7px 2px rgba(0,208,255, 0.6);
   }
+
+  button:hover {
+    padding: 1rem 1.25rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: .2s;
+    color: #1e1d28;
+    border-radius: 3px;
+    background-color: #57fff2;
+    }
 
 @media screen and (max-width: 825px) {
         h1 {
