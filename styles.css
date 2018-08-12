@@ -1,14 +1,13 @@
 body {
   background-color: #1e1d28;
   padding-left: 10%;
-  padding-left: 10%;
-  overflow: hidden;
+  padding-right: 10%;
 }
 
 #logo {
   height: 240px;
   position: absolute;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 h1 {
@@ -18,7 +17,7 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   width: 16em;
-  padding-top: 440px;
+  padding-top: 400px;
 }
 
 p {
@@ -28,51 +27,38 @@ p {
   font-size: 1.2em;
   font-weight: 100;
   line-height: 1.6em;
-  width: 24em;
-  padding-top: 20px;
+  width: 22em;
 }
 
-.grid{
-  top: -400px;
-  bottom: -400px;
-  left: -400px;
-  right: -400px;
-  position: absolute;
-
-  background-image: linear-gradient($color-neonpink 1px, transparent 2px),
-  linear-gradient(90deg, $color-neonpink 1px, transparent 2px);
-  background-size:3% 3%, 3% 3%;
-  background-position:0 0, 0 0;
-
-  transform: perspective(300px) rotateX(80deg);
-}
-
-label{
-  font-family: 'Audiowide', cursive;
-  color: $color-neonpink;
-  text-shadow: 0 0 12px rgba($color-neonpurple, 0.8);
-}
-  input:checked ~ .grid{
-    animation: throughSpace 2s linear;
-    animation-iteration-count: infinite;
+button {
+  padding: 1rem 1.25rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-shadow:
+    -2px 4px 4px #091243,
+    0 0 10px #00D0FF,
+    inset 1px 1px 1px white;
+  color: #57fff2;
+  border: 2px solid;
+  border-radius: 3px;
+  background-color: transparent;
+  box-shadow:
+    0 1px 2px rgba(0,0,0, 0.6),
+    2px 1px 4px rgba(0,0,0, 0.3),
+    2px 4px 3px rgba(3,0,128, 0.3),
+    0 0 7px 2px rgba(0,208,255, 0.6),
+    inset 0 1px 2px rgba(0,0,0, 0.6),
+    inset 2px 1px 4px rgba(0,0,0, 0.3),
+    inset 2px 4px 3px rgba(3,0,128, 0.3),
+    inset 0 0 7px 2px rgba(0,208,255, 0.6);
   }
 
-
-@keyframes throughSpace{
-  0%{
-    transform: perspective(300px) rotateX(80deg) translateY(0%);
-  }
-  100%{
-    transform: perspective(300px) rotateX(80deg) translateY(5.8%);
-  }
-}
-
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
         h1 {
             width: 11em;
-            font-size: 2.4em;
-            padding-top: 420px;
+            font-size: 2.1em;
+            padding-top: 340px;
         }
 
 @media screen and (max-width: 600px) {
@@ -84,5 +70,5 @@ label{
             #logo {
               height: 180px;
               position: absolute;
-              padding-top: 180px;
+              padding-top: 120px;
             }
