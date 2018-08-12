@@ -28,50 +28,15 @@ p {
   font-size: 1.2em;
   font-weight: 100;
   line-height: 1.6em;
-  width: 24em;
+  width: 22em;
   padding-top: 20px;
-}
-
-.grid{
-  top: -400px;
-  bottom: -400px;
-  left: -400px;
-  right: -400px;
-  position: absolute;
-
-  background-image: linear-gradient($color-neonpink 1px, transparent 2px),
-  linear-gradient(90deg, $color-neonpink 1px, transparent 2px);
-  background-size:3% 3%, 3% 3%;
-  background-position:0 0, 0 0;
-
-  transform: perspective(300px) rotateX(80deg);
-}
-
-label{
-  font-family: 'Audiowide', cursive;
-  color: $color-neonpink;
-  text-shadow: 0 0 12px rgba($color-neonpurple, 0.8);
-}
-  input:checked ~ .grid{
-    animation: throughSpace 2s linear;
-    animation-iteration-count: infinite;
-  }
-
-
-@keyframes throughSpace{
-  0%{
-    transform: perspective(300px) rotateX(80deg) translateY(0%);
-  }
-  100%{
-    transform: perspective(300px) rotateX(80deg) translateY(5.8%);
-  }
 }
 
 
 @media screen and (max-width: 900px) {
         h1 {
             width: 11em;
-            font-size: 2.4em;
+            font-size: 2.1em;
             padding-top: 420px;
         }
 
