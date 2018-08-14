@@ -13,8 +13,8 @@ nav {
   right: 0;
   top: 0;
   float: right;
-  padding-right: 6em;
-  padding-top: 8em;
+  padding-right: 2em;
+  padding-top: 1em;
   background-color: #1e1d28;
 }
 
@@ -28,6 +28,7 @@ li {
   font-weight: 400;
   padding: 8px;
   letter-spacing: .2em;
+  cursor: pointer;
 }
 
 li:hover {
@@ -42,6 +43,7 @@ a {
     color: inherit;
     font-family: Rubik;
     font-weight: 300;
+    cursor: pointer;
 }
 
 #logo {
@@ -120,7 +122,6 @@ p {
                     padding-top: 320px;
                 }
 
-
 @media screen and (max-width: 600px) {
     p {
         width: 18em;
@@ -132,3 +133,10 @@ p {
               position: absolute;
               padding-top: 120px;
             }
+
+@media screen and (max-width: 400px) {
+                            h1 {
+                                width: 18em;
+                                font-size: 1.8em;
+                                padding-top: 320px;
+                            }
