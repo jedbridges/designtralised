@@ -38,6 +38,12 @@ li:hover {
     0 1px 4px #57fff2;
 }
 
+li a.active {
+  color: #57fff2;
+  text-shadow:
+    0 1px 4px #57fff2;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -78,6 +84,16 @@ button:hover {
 h1 {
   color: #57fff2;
   font-size: 3em;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  width: 14em;
+  padding-top: 400px;
+}
+
+h2 {
+  color: #57fff2;
+  font-size: 2em;
   text-align: left;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
