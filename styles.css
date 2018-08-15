@@ -41,8 +41,16 @@ li:hover {
 li a.active {
   color: #57fff2;
   text-shadow:
-    0 1px 4px #57fff2;
+  0 1px 4px #57fff2;
 }
+
+#logo {
+  height: 240px;
+  position: absolute;
+  padding-top: 120px;
+}
+
+
 
 a {
     text-decoration: none;
@@ -52,13 +60,7 @@ a {
     cursor: pointer;
 }
 
-#logo {
-  height: 240px;
-  position: absolute;
-  padding-top: 120px;
-}
-
-button {
+a.button {
     cursor: pointer;
     display: inline-block;
     background-color: #1e1d28;
@@ -69,7 +71,7 @@ button {
     padding: 1em;
 }
 
-button:hover {
+a.button:hover {
     cursor: pointer;
     display: inline-block;
     background-color: #57fff2;
