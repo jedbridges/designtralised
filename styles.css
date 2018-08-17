@@ -52,9 +52,14 @@ li a.active {
 }
 
 #logo {
-  height: 240px;
+  height: 180px;
   position: absolute;
-  padding-top: 120px;
+  padding-top: 96px;
+}
+
+#logo:hover {
+  transition: .25s;
+  opacity: .5;
 }
 
 a {
@@ -71,7 +76,7 @@ a.button {
     background-color: #1e1d28;
     color: #57fff2;
     border: 2px solid #57fff2;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 1em;
     padding: 1em;
 }
@@ -86,16 +91,17 @@ a.button:hover {
     font-size: 1em;
     padding: 1em;
     transition: .3s;
+    border-radius: 6px;
 }
 
 h1 {
   color: #57fff2;
-  font-size: 3em;
+  font-size: 3.4em;
   text-align: left;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   width: 14em;
-  padding-top: 400px;
+  padding-top: 320px;
 }
 
 h2 {
@@ -133,8 +139,8 @@ p {
 @media screen and (max-width: 825px) {
         h1 {
             width: 11em;
-            font-size: 2.1em;
-            padding-top: 380px;
+            font-size: 2.5em;
+            padding-top: 315px;
             font-family: 'Rubik', sans-serif;
             font-weight: 500;
         }
