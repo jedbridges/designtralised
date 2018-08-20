@@ -31,7 +31,7 @@ li {
   color: #eae9e8;
   font-size: .8em;
   text-align: left;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   padding: 1em;
   letter-spacing: .2em;
@@ -65,7 +65,7 @@ li a.active {
 a {
     text-decoration: none;
     color: inherit;
-    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     cursor: pointer;
 }
@@ -98,7 +98,7 @@ h1 {
   color: #57fff2;
   font-size: 3.4em;
   text-align: left;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
   width: 14em;
   padding-top: 320px;
@@ -109,7 +109,7 @@ h2 {
   color: #57fff2;
   font-size: 2em;
   text-align: left;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   width: 14em;
   padding-top: 400px;
@@ -119,7 +119,7 @@ h4 {
   color: #eae9e8;
   font-size: 1.6em;
   text-align: left;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   width: 14em;
 }
@@ -127,12 +127,12 @@ h4 {
 p {
   color: #eae9e8;
   text-align: left;
-  font-family: 'helvetica', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.2em;
   line-height: 1.6em;
   width: 22em;
   padding-bottom: 20px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 img.homepage {
