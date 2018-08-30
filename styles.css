@@ -1,6 +1,6 @@
 
 html{ height:100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 body {
@@ -8,8 +8,6 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   min-height:100%; position:relative;
-  height:100%;
-  overflow: hidden;
 }
 
 nav {
@@ -25,6 +23,7 @@ footer {
   position:absolute;
   width:100%;
   height:100px;
+  padding-top: 48px;
 }
 
 li {
@@ -117,7 +116,7 @@ h2 {
   padding-top: 400px;
 }
 
-h4 {
+h3 {
   color: #eae9e8;
   font-size: 1.6em;
   text-align: left;
