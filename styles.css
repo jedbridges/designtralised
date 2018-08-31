@@ -202,7 +202,11 @@ img.homepage {
 
 @media screen and (max-width: 400px) {
                             h1 {
-                                width: 18em;
+                                width: 11em;
                                 font-size: 1.8em;
                                 padding-top: 320px;
+                            }
+
+                            p {
+                                width: 16em;
                             }
