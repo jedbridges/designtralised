@@ -136,34 +136,8 @@ p {
   font-weight: 200;
 }
 
-img.homepage {
-  position: absolute;
-  height: 100%;
-  right: -640px;
-  top: -36px;
-  z-index: -1;
-  opacity: .4;
-}
 
-@media screen and (max-width: 1440px) {
-                img.homepage {
-                  position: absolute;
-                  height: 100%;
-                  right: -600px;
-                  top: -36px;
-                  z-index: -1;
-                  opacity: .4;
-                }
 
-                @media screen and (max-width: 1080px) {
-                                img.homepage {
-                                  position: absolute;
-                                  height: 100%;
-                                  right: -700px;
-                                  top: -36px;
-                                  z-index: -1;
-                                  opacity: .25;
-                                }
 
 @media screen and (max-width: 825px) {
         h1 {
@@ -173,16 +147,7 @@ img.homepage {
             font-family: 'IBM Plex Sans', sans-serif;
             font-weight: 500;
         }
-        @media screen and (max-width: 1080px) {
-                        img.homepage {
-                          position: absolute;
-                          height: 100%;
-                          right: -888px;
-                          top: -20px;
-                          z-index: -1;
-                          opacity: .16;
-                        }
-
+      
 @media screen and (max-width: 600px) {
     p {
         width: 18em;
